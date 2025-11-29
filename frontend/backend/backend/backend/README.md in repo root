@@ -1,0 +1,11 @@
+# 4K Enhancer (Demo)
+
+Frontend: /frontend  
+Backend (Node/Express): /backend
+
+## Run locally
+- cd backend
+- npm install
+- npm start
+
+The backend exposes POST /api/enhance which accepts form-data file field `file`.
