@@ -2,9 +2,20 @@
 <html>
 <head>
     <title>4K Enhancer</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Welcome to 4K Enhancer</h1>
-    <p>Upload an image or video to enhance to 4K.</p>
+
+    <h1>4K Image & Video Enhancer</h1>
+    <p>Select an image or video to enhance to 4K.</p>
+
+    <input type="file" id="uploadFile" accept="image/*,video/*">
+
+    <button onclick="enhance()">Enhance to 4K</button>
+
+    <p id="status"></p>
+
+    <script src="app.js"></script>
+
 </body>
 </html>
